@@ -8,4 +8,4 @@ Data science projects
 - Peprocessed the data and performed exploratory data analysis to find the infuencing variables
 - Linear regression did not perform the best with a explained variance score (EVS) of less tha 60%
 
-                        ![](https://github.com/ishriya/Ishwariya_Portfolio/blob/main/images/correlation.png)
+  ![](https://github.com/ishriya/Ishwariya_Portfolio/blob/main/images/correlation.png)
