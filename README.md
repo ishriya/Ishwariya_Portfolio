@@ -1,4 +1,4 @@
-# Project 1: Simple Linear Regression to predict the price of a house
+# Project 1: Linear regression to predict the price of a house
 
 * Created a model to predict the sales price of a house based on total square feet
 * The dataset is obtained from [kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
