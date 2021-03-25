@@ -1,6 +1,3 @@
-# Ishwariya's Portfolio
-The repository consists of my personal works/projects for self-learning purposes!
-
 # Project 1: Simple Linear Regression to predict the price of a house
 
 * Created a model to predict the sales price of a house based on total square feet
