@@ -6,5 +6,5 @@
 * Linear regression did not perform the best
    - Acheived an explained variance score (EVS) of less than 60%
    - indicates that other variables may influence sales price and not just total square feet
-      ![](https://github.com/ishriya/Ishwariya_Portfolio/blob/main/images/LinearReg.png)
+      ![](/images/LinearReg.png)
    
