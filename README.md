@@ -23,7 +23,7 @@ Traefik is an open-source Edge router that acts as a load balancer and a reverse
 
 Correlation helps in identifying the relationship between the variables. Having a more positive values indicates that the parameters are highly correlated and vice versa.
 
-![](https://github.com/ishriya/Ishwariya_Portfolio/blob/main/project1/correlation_traefik.jpg)
+![](/project1/correlation_traefik.jpg)
 
 ##### Comparison of traefik with other load balancers
 
