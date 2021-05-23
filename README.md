@@ -36,8 +36,7 @@ It is the time taken to respond to a request for service.  Having the least resp
 
 The predominant aim of using prediction models is to predict the required physical resources for a network service. Various regression techniques such as linear, random forest, SVM are tested.
 
-![](/project1/Linear_regression.jpg)
-![](/project1/Random_forest.jpg)
+![](/project1/Linear_regression.jpg) ![](/project1/Random_forest.jpg)
 ![](/project1/SVM.jpg)
 
 #### Comparing the prediction models
