@@ -65,9 +65,31 @@ The dataset was obtained from [kaggle](https://www.kaggle.com/altruistdelhite04/
 * The below picture shows final result of the deployment 
                                                                  
    ![](/loan_prediction/deployment.PNG)
+   
 
+# Project 3: Sentiment Analysis: Classifying amazon reviews using Logistic regression and Random forest classification
 
-# Project 3: Linear regression to predict the price of a house
+## Overview
+
+This is a sentiment analysis project to classify amazon food reviews by customers into positive, negative and neutral.
+The dataset is from [kaggle](https://www.kaggle.com/laowingkin/amazon-fine-food-review-sentiment-analysis).
+
+### Steps
+* I used wordcloud to perform analysis the data
+* Assigned sentiment score based on ratings
+
+    | Rating      | Sentiment         | Implication |
+    | ------------- |:-------------:| -----:|
+    | less than 3     | -1 | negative |
+    | = 3     | 0      |   neutral |
+    | greater than 3 | +1      |    positive |
+
+* Handled missing data and dropped punctuations
+* Converted text into vectors using CountVectorizer(sklearn)
+* Since its a classification problem, logistic regression is used to classify into positive, negative or neutral sentiment
+* Logistic regression and random forect achieved an accuracy of 87% and 91% respectively.
+
+# Project 4: Linear regression to predict the price of a house
 
 * Created a model to predict the sales price of a house based on total square feet
 * The dataset is obtained from [kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
