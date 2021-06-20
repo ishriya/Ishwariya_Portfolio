@@ -75,16 +75,14 @@ This is a sentiment analysis project to classify amazon food reviews by customer
 The dataset is from [kaggle](https://www.kaggle.com/laowingkin/amazon-fine-food-review-sentiment-analysis).
 
 ### Steps
-* I used wordcloud to perform analysis the data
-![](/Sentiment_analysis_AmazonFoodReviews/images/positive.png)
+* I used wordcloud to analysis the data 
+  ![](/Sentiment_analysis_AmazonFoodReviews/images/positive.png)
 * Assigned sentiment score based on ratings
-
     | Rating      | Sentiment         | Implication |
     | ------------- |:-------------:| -----:|
     | less than 3     | -1 | negative |
     | = 3     | 0      |   neutral |
     | greater than 3 | +1      |    positive |
-
 * Handled missing data and dropped punctuations
 * Converted text into vectors using CountVectorizer(sklearn)
 * Since its a classification problem, logistic regression is used to classify into positive, negative or neutral sentiment
