@@ -23,11 +23,11 @@ Traefik is an open-source Edge router that acts as a load balancer and a reverse
 
 Correlation helps in identifying the relationship between the variables. Having a more positive values indicates that the parameters are highly correlated and vice versa.
 
-![](/project1/correlation_traefik.jpg)
+![](/benchmarking_and_performanceProfiling_of_Networkfunctions/correlation_traefik.jpg)
 
 ##### Comparison of traefik with other load balancers
 
-![](/project1/mean_time.jpg)
+![](/benchmarking_and_performanceProfiling_of_Networkfunctions/mean_time.jpg)
 
 ######  Observation: 
 It is the time taken to respond to a request for service.  Having the least response time indicates better performance of a load balancers. According to the plot, the response time of NGINX is the least among others which means that it gives the quickest response for a request. This could be due to default caching in NGINX which other load balancers does not have. Traefik takes more time to respond to a request. A general trend is seen for all the load balancers - as the CPU bandwidth increases the mean time per request decreases.
@@ -36,20 +36,38 @@ It is the time taken to respond to a request for service.  Having the least resp
 
 The predominant aim of using prediction models is to predict the required physical resources for a network service. Various regression techniques such as linear, random forest, SVM are tested.
 
-![](/project1/Linear_regression.jpg) ![](/project1/Random_forest.jpg)
-![](/project1/SVM.jpg)
+![](/benchmarking_and_performanceProfiling_of_Networkfunctions/Linear_regression.jpg) ![](/benchmarking_and_performanceProfiling_of_Networkfunctions/Random_forest.jpg)
+![](/benchmarking_and_performanceProfiling_of_Networkfunctions/SVM.jpg)
 
 #### Comparing the prediction models
 
 MSE, RMSE, MAE are error metrics which are used to compare the accuracy of the prediction models. According to the results, random forest performed better on the collected data set and very less prone to errors as compared to other prediction models. I concluded that random forest performs best for the collected data set of traefik and it can be used to predict the required resources. However, there is always room for improvement. There could be other models which may perform better than random forest.
 
-![](/project1/comparison.jpg)
+![](/benchmarking_and_performanceProfiling_of_Networkfunctions/comparison.jpg)
 
 
+# Project 2:  Classification: Loan eligibility prediction using Logistic regression and deploying the ML model using Flask on localhost
+
+### Objective
+
+To automatically analyze the loan application and approve or disapprove it based on the details. The main reason why I wanted to attempt this project is to learn how a ML model can be deployed. I have build several ML models, trained them and compared various metrics but I have never really put them to real use. So, in this project I wanted to explore how ML model can be deployed for an end user.
+The dataset was obtained from [kaggle](https://www.kaggle.com/altruistdelhite04/loan-prediction-problem-dataset).
+
+### Steps
+* Preprocessed data to handle missing values
+* Exploratory data anlysis to find correlating variables
+* More than 12 independent variables such as education, marital status, gender, applicant income etc. and 1 target variable Loan status (to approve or not)
+* I have chosen 3 only feautures [Education, Marital status, gender] to train the model
+* Most of the feautures were categorical (Yes/No, Male/Female, Graduate/Non-graduate) -> hence, I encoded them as binary 0/1
+* Logistic regression was used to train the ML model since its a classification problem.
+* About 80% accuracy was obtained from the model
+* The model was them deployed on localhost:5000 using Flask and simple HTML/CSS for template -> Reference: [Kdnuggets](https://www.kdnuggets.com/2019/10/easily-deploy-machine-learning-models-using-flask.html)
+* The below picture shows final result of the deployment 
+                                                                 
+   ![](/loan_prediction/deployment.PNG)
 
 
-
-# Project 2: Linear regression to predict the price of a house
+# Project 3: Linear regression to predict the price of a house
 
 * Created a model to predict the sales price of a house based on total square feet
 * The dataset is obtained from [kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
