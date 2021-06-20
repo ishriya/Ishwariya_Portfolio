@@ -76,6 +76,7 @@ The dataset is from [kaggle](https://www.kaggle.com/laowingkin/amazon-fine-food-
 
 ### Steps
 * I used wordcloud to perform analysis the data
+![](/Sentiment_analysis_AmazonFoodReviews/images/positive.png)
 * Assigned sentiment score based on ratings
 
     | Rating      | Sentiment         | Implication |
